@@ -1,0 +1,107 @@
+*{
+	padding:0;
+	margin:0;
+}
+#vid{
+	padding-left:10px;
+	margin-top:50px;
+	margin-bottom:-200px;
+}
+.header{
+	text-align: center;
+	font-size:35px;
+	padding:32px;
+	background-color:black;
+	color:white;
+}
+.header p{
+	font-size:25px;
+	padding:10px;
+}
+ul li a:hover{
+	color:#ff7200;
+}
+ul li{
+	list-style:none;
+	margin-left:150px;
+	margin-top:27px;
+	font-size:30px;
+}
+.text{
+	margin-left:700px;
+	height:0px;
+}
+textarea {
+  resize: none;
+  font-size:25px;
+}
+ul li a{
+	text-decoration:none;
+	color:#fff;
+	font-family:Arial;
+	font-weight:bold;
+	transition:0.4s ease-in-out;
+}
+ul{
+	float:left;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.enu{
+	width:400px;
+	float:left-center;
+	height:100px;
+	width:100%;
+	background:black;
+}
+.let{
+	color:#ff7200;
+	font-size:35px;
+	font-family: arial;
+	padding-left:20px;
+	float: left;
+	padding-top:10px;
+	margin-top:5px;
+	background:black;
+}
+.con{
+	width:200px;
+	float:left;
+	height:70px;
+	
+}
+
+.row{
+	display:flex;
+	flex-wrap:wrap;
+	padding:0 4px;
+}
+.column{
+	flex:25%;
+	max-width:25%;
+	padding:1 2px;
+}
+.colum img{
+	margin-top:8px;
+	vertical-align:middle;
+}
+@media screen and (max-width: 800px){
+	.column{
+		flex:50%;
+		max-width:50%;
+	}
+}
+@media screen and (max-width:600px){
+	.column{
+		flex:100%;
+		max-width:100%;
+	}
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+
